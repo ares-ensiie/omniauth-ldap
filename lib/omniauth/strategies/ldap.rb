@@ -9,7 +9,7 @@ module OmniAuth
         'name' => 'cn',
         'first_name' => 'givenName',
         'last_name' => 'sn',
-        'email' => ['mail', "email", 'userPrincipalName'],
+        'email' => ['aresEmail', 'mail', "email", 'userPrincipalName'],
         'phone' => ['telephoneNumber', 'homePhone', 'facsimileTelephoneNumber'],
         'mobile' => ['mobile', 'mobileTelephoneNumber'],
         'nickname' => ['uid', 'userid', 'sAMAccountName'],
